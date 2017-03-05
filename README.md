@@ -1,57 +1,53 @@
-# Paddle EZ SmartLock Control
- - Plugin Name:       Paddle EZ Lock Control
- - Version:           1.3.0
- - Author:            AWells
- - Description:       Paddle EZ Smart Lock & Locker Management
- - Text Domain:       pezlock
-
+# Paddle EZ Booking Control
+ - Plugin Name:       Paddle EZ Booking Control
+ - Version:           2.5.2
+ - Author:            AWells <ajwells99@gmail.com>
+ - Description:       Paddle EZ Booking Control. Server & client side updates to customize the booking process.
+ - Text Domain:       pez
 
 -------------------------------
 
+<br><br>
 
-
-
-**FILE:  pez-lock.php**
+**FILE:  pez.php**
 - Plugin Main
-- Identifies, Initializes, & Runs the lock plugin
+- Identifies, Initializes, & Runs the plugin
 
+<br><br>
 
-
-
-**FILE:  includes/class-pezlock.php**
-
-- PEZ Lock Plugin Controller
+**FILE:  includes/class-pez.php**
+- PEZ Plugin Controller
 - Loads supporting plugin files/classes
 - Defines actions and filters
 - Initializes & runs Loader
 
+<br><br>
 
-
-
-**FILE:  includes/class-pezlock-loader.php**
-
+**FILE:  includes/class-pez-loader.php**
+- Removes any necessary actions
 - Adds plugin hooks
-- (incl: cron-job event hooks)
 
+<br><br>
 
-
-
-**FILE:  includes/class-pezlock-admin.php**
-
-- Admin Dashboard methods
-- Resource device(lock) setup
-
-
-
-
-**FILE:  includes/class-pezlock-options.php**
-
-- Adds global settings page to sidebar in admin dashboard
-- Create/Update/Delete plugin settings
-
-
-
-
-**FILE:  includes/class-pezlock-event-controller.php**
-
+**FILE:  includes/class-pez-booking-controller.php**
 - Methods called by plugin actions/filters
+
+<br><br>
+
+**FILE:  includes/class-pez-booking.php**
+- Helper methods to get/build data for the main booking controller
+
+<br><br>
+
+**FILE:  includes/assets/css/pez-bookingform.css**
+- Shop/Booking Form styles
+
+<br><br>
+
+**FILE:  includes/assets/js/pez-bookingform.js**
+- Shop/Booking Form JavaScript
+
+<br><br>
+
+**FILE:  includes/assets/js/pez-cart.js**
+- Cart/Checkout JavaScript
