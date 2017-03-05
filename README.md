@@ -6,14 +6,13 @@
  - Text Domain:       pez
 
 -------------------------------
-
-<br><br>
+<br>
 
 **FILE:  pez.php**
 - Plugin Main
 - Identifies, Initializes, & Runs the plugin
 
-<br><br>
+<br>
 
 **FILE:  includes/class-pez.php**
 - PEZ Plugin Controller
@@ -21,23 +20,23 @@
 - Defines actions and filters
 - Initializes & runs Loader
 
-<br><br>
+<br>
 
 **FILE:  includes/class-pez-loader.php**
 - Removes any necessary actions
 - Adds plugin hooks
 
-<br><br>
+<br>
 
 **FILE:  includes/class-pez-booking-controller.php**
 - Methods called by plugin actions/filters
 
-<br><br>
+<br>
 
 **FILE:  includes/class-pez-booking.php**
 - Helper methods to get/build data for the main booking controller
 
-<br><br>
+<br>
 
 **FILE:  includes/assets/css/pez-bookingform.css**
 - Shop/Booking Form styles
@@ -47,7 +46,7 @@
 **FILE:  includes/assets/js/pez-bookingform.js**
 - Shop/Booking Form JavaScript
 
-<br><br>
+<br>
 
 **FILE:  includes/assets/js/pez-cart.js**
 - Cart/Checkout JavaScript
